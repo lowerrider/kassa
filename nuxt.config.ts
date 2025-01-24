@@ -10,4 +10,9 @@ export default defineNuxtConfig({
   ssr: false,
 
   compatibilityDate: "2025-01-21",
+
+  // Указываем базовый путь для GitHub Pages
+  router: {
+    base: "/kassa/", // Путь на GitHub Pages
+  },
 });
